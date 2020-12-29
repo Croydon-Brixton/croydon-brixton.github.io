@@ -10,5 +10,9 @@ order: 4
 # MIT License
 ---
 
-
-Hi, I'm Simon.
+## About me
+Hi, I'm Simon. This is my personal website and blog. It is still under construction, so please come back later.
+## License
+Using [Jekyll](https://jekyllrb.com/).
+Using [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
+Using favicon [calligraphy](https://thenounproject.com/search/?q=calligraphy&i=1606333) by suib icon from the Noun Project.
