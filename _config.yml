@@ -12,12 +12,10 @@ title: Simon Mathis  # the main title
 tagline: PhD Candidate at the AI for Environmental Risk CDT at Cambridge University.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  My personal website and blog to share my curiosities with whomever is interested.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://croydon-brixton.github.io'
 
 author: Simon Mathis                  # change to your full name
 
