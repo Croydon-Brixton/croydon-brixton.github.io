@@ -14,17 +14,17 @@
         {% assign avatar_url = site.avatar %}
         {% capture start %}{{ site.avatar | slice: 0 }}{% endcapture %}
         {% if start == '/' %}
-          {% assign avatar_url = avatar_url | prepend: site.baseurl %}
+        {% assign avatar_url = avatar_url | prepend: site.baseurl %}
         {% endif %}
         <img src="{{ avatar_url }}" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
     <div class="site-title mt-3">
-      <a href="{{ '/' | relative_url }}">{{- site.title -}}</a>
+      <a href="{{ '/' | relative_url }}">{{- site.sidebar_title -}}</a>
     </div>
 
-    <div class="site-subtitle font-italic">{{- site.tagline -}}</div>
+    <div class="site-subtitle font-italic">{{- site.sidebar_tagline -}}</div>
 
   </div><!-- .profile-wrapper -->
 
@@ -51,39 +51,39 @@
   <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center">
 
     {% for entry in site.data.contact %}
-      {% capture url %}
-        {%- if entry.type == 'github' -%}
-          https://github.com/{{ site.github.username }}
-        {%- elsif entry.type == 'twitter' -%}
-          https://twitter.com/{{ site.twitter.username }}
-        {%- elsif entry.type == 'email' -%}
-          {% assign email = site.social.email | split: '@' %}
-          javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-        {%- elsif entry.type == 'rss' -%}
-          {{ "/feed.xml" | relative_url }}
-        {%- else -%}
-          {{ entry.url }}
-        {%- endif -%}
-      {% endcapture %}
+    {% capture url %}
+    {%- if entry.type == 'github' -%}
+    https://github.com/{{ site.github.username }}
+    {%- elsif entry.type == 'twitter' -%}
+    https://twitter.com/{{ site.twitter.username }}
+    {%- elsif entry.type == 'email' -%}
+    {% assign email = site.social.email | split: '@' %}
+    javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+    {%- elsif entry.type == 'rss' -%}
+    {{ "/feed.xml" | relative_url }}
+    {%- else -%}
+    {{ entry.url }}
+    {%- endif -%}
+    {% endcapture %}
 
-      {% if url %}
-      <a href="{{ url }}" aria-label="{{ entry.type }}"
-        {% unless site.theme_mode %}class="order-{{ forloop.index | plus: 2 }}"{% endunless %}
-        {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
-        <i class="{{ entry.icon }}"></i>
-      </a>
-      {% endif %}
+    {% if url %}
+    <a href="{{ url }}" aria-label="{{ entry.type }}" {% unless site.theme_mode
+      %}class="order-{{ forloop.index | plus: 2 }}" {% endunless %} {% unless entry.noblank %}target="_blank"
+      rel="noopener" {% endunless %}>
+      <i class="{{ entry.icon }}"></i>
+    </a>
+    {% endif %}
 
     {% endfor %}
 
     {% unless site.theme_mode %}
-      {% if site.data.contact.size > 0 %}
-        <span class="icon-border order-2"></span>
-      {% endif %}
+    {% if site.data.contact.size > 0 %}
+    <span class="icon-border order-2"></span>
+    {% endif %}
 
-      <span id="mode-toggle-wrapper" class="order-1">
-        {% include mode-toggle.html %}
-      </span>
+    <span id="mode-toggle-wrapper" class="order-1">
+      {% include mode-toggle.html %}
+    </span>
     {% endunless %}
 
   </div> <!-- .sidebar-bottom -->
