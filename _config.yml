@@ -13,7 +13,7 @@ tagline: PhD Candidate at the AI for Environmental Risk CDT at Cambridge Univers
 
 sidebar_title: Simon Mathis # the title that appears in the sidebar
 
-sidebar_tagline: PhD Candidate at the University of Cambridge  # The tagline that appears at the sidebar
+sidebar_tagline: PhD Candidate AI4ER CDT at the University of Cambridge  # The tagline that appears at the sidebar
 
 
 description: >-                        # used by seo meta and the atom feed
@@ -55,7 +55,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 # change below value to '/projectname'.
 baseurl: ''
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/London
 
 google_analytics:
