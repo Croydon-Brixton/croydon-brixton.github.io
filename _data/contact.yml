@@ -6,7 +6,7 @@
 
 -
   type: github
-  icon: 'fab fa-github-alt'
+  icon: 'fab fa-github'
   url: 'https://github.com/Croydon-Brixton'
 -
   type: twitter
@@ -15,8 +15,6 @@
   type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/simonmathis/'                  # Fill with your Linkedin homepage
-
-# Uncomment and complete the url below to enable more contact options
 # -
 #   type: email
 #   icon: 'fas fa-envelope'
