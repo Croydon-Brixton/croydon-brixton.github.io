@@ -78,7 +78,7 @@ $sidebar-display: "sidebar-display";
   a {
     @include sidebar-links;
     &:hover {
-      color: #fff;
+      color: var(--sidebar-hover-link-color);  // change hover over color for main title
       @include no-text-decoration;
     }
   }
@@ -202,7 +202,7 @@ $sidebar-display: "sidebar-display";
     }
 
     a:hover, #mode-toggle-wrapper > i:hover {
-      color: #fff;
+      color: var(--sidebar-hover-link-color);  // change icon hover over color
     }
 
     #mode-toggle-wrapper {
