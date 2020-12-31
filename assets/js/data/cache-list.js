@@ -25,6 +25,7 @@ const include = [
 
   '{{ "/assets/js/home.min.js" | relative_url }}',
   '{{ "/assets/js/page.min.js" | relative_url }}',
+  '{{ "/assets/js/page_with_toc.min.js" | relative_url }}',
   '{{ "/assets/js/post.min.js" | relative_url }}',
   '{{ "/assets/js/categories.min.js" | relative_url }}',
 

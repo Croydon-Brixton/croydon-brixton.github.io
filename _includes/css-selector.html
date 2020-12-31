@@ -24,3 +24,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}" />
   {% endif %}
 {% endif %}
+
+<!-- Custom page with table of contents -->
+{% if page.layout == 'page_with_toc' %}
+  {% if site.toc and page.toc %}
+    <link rel="preload" as="style" href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/lib/bootstrap-toc.min.css' | relative_url }}" />
+  {% endif %}
+{% endif %}
