@@ -19,9 +19,9 @@ For my master's thesis in physics I worked on [simulating U(1) quantum field the
 I came in contact with data science rather late, when the deep learning revolution was already in full swing. At the time I pursued a pet project of classifying particle trajectories in a particle detector as a small research project on the side during my exchange in Japan. The fascination with data science stuck with me and I co-founded the [Analytics Club at ETH](https://analytics-club.org/) as well as ETH's [Hack4Good](https://analytics-club.org/hack4good) programme. If you're curious, you can learn more about the first two editions of Hack4Good in this [blog post](https://blogs.ethz.ch/ETHambassadors/2019/08/22/hack4good/) I wrote back in 2019 or in this [press release](https://ethz.ch/en/industry/industry/news/data/2020/04/eth-students-assist-ngos-in-war-zones.html) by the ETH industry relations.
 
 ## Interests
-
 ### Academic
 I am interested in mitigating climate change and biodiversity loss with the help of data science. As I am still fairly new to the environmental sciences, I am currently exploring different opportunities.  
+
 Recently, I've become particularly interested in remote sensing, forests and forest fires. Forests sequester a massive amout of carbon and forest fires anually emit around [8 billion tons of CO2 per year](https://essd.copernicus.org/articles/9/697/2017/). This compares to about 36 billion tons of CO2 emitted annually from fossil fuels [by humans](https://ourworldindata.org/grapher/annual-co-emissions-by-region?time=earliest..latest). In other words, if forest fires were a country, they'd be the second largest emitter (after China).  
 
 Other research that interests me, but that I am not currently persuing is related to [quantum computing](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.094501), [quantum foundations](https://github.com/Croydon-Brixton/qthought) and the mathematical formalisation of [causality](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf).
