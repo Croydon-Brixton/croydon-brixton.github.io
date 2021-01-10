@@ -43,7 +43,15 @@ layout: page
   {% endfor %}
 {% endif %}
 
+<!-- Display this if no posts yet. -->
+{% if site.posts.size < 1 %}
+<div id="header">
+  <h1> 
+    There are no posts yet, please come back later.
+  </h1>
+{% endif %}
 
+<!-- List posts -->
 <div id="post-list">
 
 {% for post in posts %}
