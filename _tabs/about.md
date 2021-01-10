@@ -7,12 +7,12 @@ toc: true
 ---
 
 ## About me
-Hi, I'm Simon Mathis, a PhD student in environmental data science at the University of Cambridge. This is my personal website and blog. I plan to use it throught my PhD studies, mainly as a way of forcing myself to practice writing about the things I learn.  
+Hi, I'm Simon Mathis, a postgraduate student in environmental data science at the University of Cambridge. This is my personal website and blog. I plan to use it throught my PhD studies, mainly as a way of forcing myself to practice writing about the things I learn.  
 
-__At the moment, the site is still under construction, so please come back for more later.__
+__At the moment the site is still under construction, so please come back for more later.__
 
 ### My background
-My original background is in theoretical and computational physics at [ETH Zurich](https://ethz.ch/en.html). Currently, I am pursuing a PhD in environmental data science at the centre for doctoral training for [artificial intelligence for environmental risk (AI4ER)](https://ai4er-cdt.esc.cam.ac.uk/) research at the University of Cambridge. Next to my research, I engage in the Swiss tech startup [Visium](https://visium.ch/), where I head the non-profit projects and develop the sustainabilty strategy.
+My original background is in theoretical and computational physics at [ETH Zurich](https://ethz.ch/en.html). Currently, I am pursuing my postgraduate studies in environmental data science at the centre for doctoral training for [artificial intelligence for environmental risk (AI4ER)](https://ai4er-cdt.esc.cam.ac.uk/) research at the University of Cambridge. Next to my research, I engage in the Swiss tech startup [Visium](https://visium.ch/), where I head the non-profit projects and develop the sustainabilty strategy.
 
 For my master's thesis in physics I worked on [simulating U(1) quantum field theories](https://arxiv.org/abs/2005.10271) on quantum computers at [IBM Research Zurich](https://www.zurich.ibm.com/st/quantum/). While I love theoretical quantum physics, I found out that I prefer to work in an interdisciplinary environment on topics with immediate relevance even more. A topic I care particularly about is climate change. My PhD at the AI4ER CDT at Cambridge allows me to sit in the sweet spot of my interests: It allows me to use my passion for mathematics and theory by developing data-science tools for envrionmental research in an interdisciplinary context.  
 
