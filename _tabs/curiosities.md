@@ -3,13 +3,13 @@ title: Curiosities
 order: 2
 ---
 
-While the page is under construction, here are some random ideas, thoughts and links to other great pages. 
+While my own page is under construction, I'll refer you to some other interesting pages and stimulating thoughts that I found on the web. Enjoy! 
 
 ## Other cool science
 - Bert Hubert has an interesting blog article that [explains DNA in computer science terms](https://berthub.eu/amazing-dna/). He recently also wrote a very readable explanation of [how the BioNTech/Pfier covid-19 vaccine works](https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/).
 
 ## Finding research articles
-- [Semantic scholar](https://www.semanticscholar.org/): A great search engine for papers that allows you to customize your feed according to your interests
+- [Semantic scholar](https://www.semanticscholar.org/): A great search engine for papers that allows you to customize your feed according to your interests. They recently introduced a handy TLDR-text summarization feature.
 - Andrej Karpathy's [arxiv sanity preserver](http://www.arxiv-sanity.com/) for scanning arxiv for the the latest and interesting pre-prints, using simple NLP techniques. 
 
 ## Cool machine learning related sites
