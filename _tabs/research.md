@@ -3,9 +3,11 @@ title: Research
 order: 3
 ---
 ## Research interests
+
 I am interested in mitigating climate change and its effects, as well as biodiversity loss with the help of data science. As I am still fairly new to the environmental sciences side of things, I am currently exploring different opportunities.  
 
 Among my research interests so far are:
+
 - Deep Learning (in particular for the emulation of physical systems and in vision for remote sensing)
 - remote-sensing (particularly from space)
 - carbon sequestration
@@ -16,6 +18,7 @@ An interesting fact that I recently learned is that while forests sequester a ma
 Other research that interests me, but that I am not currently persuing is related to [quantum computing](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.094501), [quantum foundations](https://github.com/Croydon-Brixton/qthought) and the mathematical formalisation of [causality](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf).
 
 ## Past research projects
+
 - __Master thesis__: Resource estimates for simulating U(1) lattice gauge theories on quantum computers at ETH Zurich and IBM Research Zurich. [Paper](https://arxiv.org/abs/2005.10271).
 - __Side project__: Simulating quantum thought experiments on a computer.  
  The project is geared in particular towards simulating the Frauchiger-Renner paradox and formalizing interpretations of quantum mechanics in mathematical language. Unfortunately I haven't yet found the time to fully finish this project. [Project Code](https://github.com/Croydon-Brixton/qthought).

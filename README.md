@@ -1,11 +1,13 @@
 # Simon Mathis | Personal website
 
 ## Docker development
+
 Run `bash tools/docker_run.sh` to launch a jekyll docker container serving the site in develop mode.
 
+## Local development
 
-## Local development 
-Run 
+Run
+
 ```bash
 source ~/.bashrc  # only once, to load ruby environment
 bundle exec jekyll serve s --trace --drafts
