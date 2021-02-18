@@ -8,7 +8,7 @@ toc: true
 
 ## About me
 
-Hi, I'm Simon Mathis, a postgraduate student in environmental data science at the University of Cambridge. This is my personal website and blog. I plan to use it throught my PhD studies, mainly as a way of forcing myself to practice writing about the things I learn.  
+Hi, I'm Simon Mathis, a postgraduate student in environmental data science at the University of Cambridge. This is my personal website and blog. I plan to use it throughout my PhD studies, mainly as a way of forcing myself to practice writing about the things I learn.  
 
 __At the moment the site is still under construction, so please come back for more later.__
 
