@@ -60,7 +60,7 @@ body {
 
 /*--- sidebar layout ---*/
 
-$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+$tab-count: {{ site.tabs | size | plus: 2 }}; // plus 2 for home tab and blog
 
 $sidebar-display: "sidebar-display";
 
@@ -74,6 +74,7 @@ $sidebar-display: "sidebar-display";
   width: $sidebar-width-medium;
   z-index: 99;
   background: var(--sidebar-bg);
+  // box-shadow: 3px 0px 0px 0 rgba(0, 0, 0, 0.05);  // This is how to add shadow to the sidebar
 
   a {
     @include sidebar-links;
