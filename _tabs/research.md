@@ -1,6 +1,8 @@
 ---
 title: Research
 layout: page_with_toc
+topbar_title: Research
+permalink: /research/
 toc: true
 math: true
 order: 3

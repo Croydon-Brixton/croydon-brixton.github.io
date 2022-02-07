@@ -1,5 +1,6 @@
 ---
 title: Curiosities
+permalink: /curiosities/
 order: 2
 ---
 
