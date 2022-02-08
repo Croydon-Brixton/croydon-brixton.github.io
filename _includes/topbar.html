@@ -32,7 +32,9 @@
       {% if page.layout == 'home' %}
         {{- site.title -}}
       {% elsif page.dynamic_title %}
-        {{- page.title -}}
+        {{- page.title | capitalize -}}
+      {% elsif page.topbar_title %}
+        {{- page.topbar_title | capitalize -}}
       {% else %}
         {{- page.layout | capitalize -}}
       {% endif %}

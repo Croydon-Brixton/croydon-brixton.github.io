@@ -12,7 +12,7 @@ const include = [
 
   /*--- CSS ---*/
 
-  '{{ "/assets/css/home.css" | relative_url }}',
+  '{{ "/assets/css/blog.css" | relative_url }}',
   '{{ "/assets/css/categories.css" | relative_url }}',
   '{{ "/assets/css/tags.css" | relative_url }}',
   '{{ "/assets/css/archives.css" | relative_url }}',
@@ -23,7 +23,7 @@ const include = [
 
   /*--- Javascripts ---*/
 
-  '{{ "/assets/js/home.min.js" | relative_url }}',
+  '{{ "/assets/js/blog.min.js" | relative_url }}',
   '{{ "/assets/js/page.min.js" | relative_url }}',
   '{{ "/assets/js/page_with_toc.min.js" | relative_url }}',
   '{{ "/assets/js/post.min.js" | relative_url }}',

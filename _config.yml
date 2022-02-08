@@ -4,52 +4,48 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
 title: Simon Mathis | Personal Blog # the main title
 
-tagline: PhD Candidate at the AI for Environmental Risk CDT at Cambridge University.  # it will display as the sub-title
+tagline: PhD Student @ Cambridge University. # it will display as the sub-title
 
 sidebar_title: Simon Mathis # the title that appears in the sidebar
 
-sidebar_tagline: PhD Candidate AI4ER CDT at the University of Cambridge  # The tagline that appears at the sidebar
+sidebar_tagline: PhD Student @ University of Cambridge # The tagline that appears at the sidebar
 
-
-description: >-                        # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed
   My personal website and blog to share my curiosities with whomever is interested.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: 'https://croydon-brixton.github.io'
 
-author: Simon Mathis                  # change to your full name
+author: Simon Mathis # change to your full name
 
-avatar: /assets/img/about/avatar_simon_2020_closeup.jpg   # support internet resources
+avatar: /assets/img/about/avatar_simon_2_closeup.jpg # support internet resources
 
 github:
-  username: Croydon-Brixton             # change to your github username
+  username: Croydon-Brixton # change to your github username
 
 twitter:
-  username: SimMat20            # change to your twitter username
+  username: SimMat20 # change to your twitter username
 
 linkedin:
   username: simonmathis
 
 social:
-  name: Simon Mathis                  # it will shows as the copyright owner in Footer
+  name: Simon Mathis # it will shows as the copyright owner in Footer
   #email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/Croydon-Brixton       # change to your github homepage
-    - https://twitter.com/SimMat20      # change to your twitter homepage
+    - https://github.com/Croydon-Brixton # change to your github homepage
+    - https://twitter.com/SimMat20 # change to your twitter homepage
     - https://www.linkedin.com/in/simonmathis/
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 # --------------------------
-
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
@@ -59,7 +55,7 @@ baseurl: ''
 timezone: Europe/London
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: '' # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -67,12 +63,11 @@ google_analytics:
     # the next options only valid when `google_analytics.pv` is enabled.
     proxy_url: ''
     proxy_endpoint: ''
-    cache: false  # pv data local cache, good for the users from GFW area.
+    cache: false # pv data local cache, good for the users from GFW area.
 
 disqus:
-  comments: false  # boolean type, the global switch for posts comments.
-  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
+  comments: false # boolean type, the global switch for posts comments.
+  shortname: '' # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # Prefer color scheme setting.
 #
@@ -86,16 +81,17 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # <light|dark>
+theme_mode: # <light|dark>
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-paginate: 10
+paginate: 5 # TODO: Set default to 10 after debugging
+paginate_path: '/blog/page:num'
 
 kramdown:
   syntax_highlighter: rouge
-  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
     # default_lang: console
     span:
@@ -113,64 +109,50 @@ collections:
     output: true
     sort_by: order
 
-
-defaults:
-  -
-    scope:
-      path: ''          # An empty string here means all files in the project
-      type: posts
+defaults: # This includes front-matter defaults: https://jekyllrb.com/docs/configuration/front-matter-defaults/
+  - scope:
+      path: '' # An empty string here means all files in the project
+      type: posts # This will only set the layout for files where the type is posts
     values:
       layout: post
-      comments: true    # Enable comments in posts.
-      toc: true         # Display TOC column in posts.
+      comments: true # Enable comments in posts.
+      toc: true # Display TOC column in posts.
       breadcrumb:
-        -
-          label: Posts
+        - label: Posts
           url: /
-  -
-    scope:
+  - scope:
       path: _drafts
     values:
-      comments: false
-  -
-    scope:
+      comments: false # Disable comments in posts
+  - scope:
       path: index.html
     values:
       breadcrumb:
-        -
-          label: Posts
-  -
-    scope:
+        - label: Posts
+  - scope:
       path: tags
     values:
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
-        -
-          label: Tags
+        - label: Tags
           url: /tabs/tags/
-  -
-    scope:
+  - scope:
       path: categories
     values:
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
-        -
-          label: Categories
+        - label: Categories
           url: /tabs/categories/
-  -
-    scope:
+  - scope:
       path: ''
-      type: tabs             # see `site.collections`
+      type: tabs # see `site.collections`
     values:
       layout: page
-      dynamic_title: true    # Hide title in mobile screens.
+      dynamic_title: true # Hide title in mobile screens. And grab title form title name
       breadcrumb:
-        -
-          label: Home
+        - label: Home
           url: /
 
 sass:
