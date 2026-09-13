@@ -1,20 +1,35 @@
-# Simon Mathis | Personal website
+# croydon-brixton.github.io
 
-## Docker development
+Hosting for **[simonmathis.com](https://simonmathis.com)**. Nothing here is
+written by hand.
 
-Run `bash tools/docker_run.sh` to launch a jekyll docker container serving the site in develop mode.
+## How this works
 
-## Local development
+The `gh-pages` branch holds the **built output** of the site and is what GitHub
+Pages serves. It is force-pushed by CI from a private source repository — edits
+made directly to it will be overwritten on the next deploy.
 
-Run
+This branch (`main`) exists only for this README. The site's source, content and
+build configuration all live in the private repo.
 
-```bash
-source ~/.bashrc  # only once, to load ruby environment
-bundle exec jekyll serve s --trace --drafts
+```
+private source repo  --CI-->  gh-pages  -->  simonmathis.com
 ```
 
-## License
+## Branches
 
-Using [Jekyll](https://jekyllrb.com/).
-Using [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy is published under [MIT](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE) License.
-Using favicon [calligraphy](https://thenounproject.com/search/?q=calligraphy&i=1606333) by suib icon from the Noun Project.
+| Branch | Purpose |
+|---|---|
+| `gh-pages` | Built site. Served by GitHub Pages. Generated — do not edit. |
+| `gh-pages-backup-2026-09-13` | The previous site as it stood on 13 Sep 2026, before the rebuild. Restore point. |
+| `main` | This README. |
+
+## History
+
+Until September 2026 this repo held the site's source directly: a fork of the
+[Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme, vendored
+and modified in place. That source is still in this branch's git history; it was
+removed from the working tree when the site moved to a separate private repo.
+
+`CNAME` lives on `gh-pages` and is what points `simonmathis.com` here. Do not
+delete it.
